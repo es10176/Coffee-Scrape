@@ -1,0 +1,20 @@
+Coffee Scrape: A Simple Web Scraping Library
+
+Version: 0.1.0
+
+Author: Emiliano Sanchez (emiliano.sanchez3310@gmail.com)
+
+Description:
+
+Coffee Scrape is a lightweight Python library designed to streamline common web scraping tasks. It provides functions for cleaning datasets, extracting text from web pages, and extracting links.
+
+How to use:
+
+
+- Using extract_text: The extract_text method is used to extract text and only text, from a specified URL. For example, "data = coffee.extract_text("https://github.com") ". 
+
+- Using extract_links: The extract_links method is similar to extract_text but it is used to extract links instead of text. For example, "data = coffee.extract_links("https://github.com") "
+
+- Using clean: Sometimes, when extracting data from websites, you may want to clean the data by either removing duplicates or filling in blank spaces. This is where the clean method comes in handy. For example, "cleaned_data = coffee.clean(data) "
+
+NOTE: Please keep in mind that this software may have errors and or bugs that may or may not negatively impact your user experience. Please be patient with the developers as this is an indie project.
