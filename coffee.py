@@ -58,4 +58,17 @@ def extract_all(z):
 
     return temp_data
 
+
+
+def export_csv(z):
+    with open('coffee_data.csv', 'w', newline='') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerows(z)
+
+
+def export_json(x):
+    file_name = "coffee_data"
+            
+    with open(f"{file_name}.json", 'w') as json_file:
+        json.dump(x, json_file)
     
